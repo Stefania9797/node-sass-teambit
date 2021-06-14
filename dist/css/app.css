@@ -39,3 +39,16 @@
   display: inline-block;
   vertical-align: super;
 }
+
+.jumbotron {
+  color: #5f4e42;
+  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
+}
+.jumbotron p, .jumbotron h1 {
+  width: 50%;
+}
+.jumbotron h1 {
+  font-size: 30px;
+  padding: 20px 0px;
+  line-height: 1.5;
+}
