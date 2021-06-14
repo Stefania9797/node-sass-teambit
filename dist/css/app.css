@@ -17,7 +17,7 @@ a {
 .jumbotron {
   color: #5f4e42;
   padding-bottom: 15px;
-  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
+  background: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
 }
 .jumbotron p, .jumbotron h1 {
   width: 50%;
