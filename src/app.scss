@@ -15,7 +15,10 @@
 .jumbotron{
     color: $primary-color;
     padding-bottom: 15px;
-    background: url("./img/illustration-main.jpg");
+    background: url('/../dist/img/illustration-main.jpg');
+    background-size: 350px;
+    background-position: 100%;
+    background-repeat: no-repeat;
     p, h1{
         width: 50%;
     }
@@ -49,6 +52,7 @@ main{
     }
     .card-container{
         display: flex;
+        justify-content: center;
     }
     .card{
         padding: 10px;
