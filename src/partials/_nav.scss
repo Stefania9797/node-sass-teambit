@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid $primary-color;
+    a{
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        color: $primary-color;
+        font-weight: $bold-weight;
+    }
+    button{
+        font-weight: $bold-weight;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px solid $btn-color;
+        color: $btn-color;
+        img{
+            width: 20px;
+        }
+        span{
+            display: inline-block;
+            vertical-align: super;
+        }
+    }
+}
