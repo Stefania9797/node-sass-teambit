@@ -1,15 +1,38 @@
 @import "partials/variables";
 @import "partials/common";
-@import "partials/nav";
+@mixin base-btn {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: $bold-weight;
+    img{
+        width: 20px;
+    }
+    span{
+        display: inline-block;
+        vertical-align: super;
+    }
+}
 .jumbotron{
     color: $primary-color;
+    background-image: url("./img/illustration-main.jpg");
     p, h1{
         width: 50%;
+    }
+    a{
+        display: block;
+        color: $primary-color;
     }
     h1{
         font-size: $font-big;
         padding: 20px 0px;
         line-height: 1.5;
     }
-    background-image: url("../dist/img/illustration-main.jpg")
+    button{
+        @include base-btn;
+        background-color: $btn-color;
+        color: white;
+        margin: 10px 0;
+    }
+    
 }
+@import "partials/nav";

@@ -7,23 +7,13 @@
     a{
         display: inline-block;
         margin: 0 10px;
-        text-decoration: none;
         color: $primary-color;
         font-weight: $bold-weight;
     }
     button{
-        font-weight: $bold-weight;
-        padding: 5px;
-        border-radius: 5px;
+        @include base-btn;
         background-color: white;
         border: 2px solid $btn-color;
         color: $btn-color;
-        img{
-            width: 20px;
-        }
-        span{
-            display: inline-block;
-            vertical-align: super;
-        }
     }
 }
