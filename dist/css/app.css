@@ -16,6 +16,7 @@ a {
 
 .jumbotron {
   color: #5f4e42;
+  padding-bottom: 15px;
   background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
 }
 .jumbotron p, .jumbotron h1 {
@@ -44,6 +45,44 @@ a {
 .jumbotron button span {
   display: inline-block;
   vertical-align: super;
+}
+
+main {
+  background-color: #ffe7d2;
+}
+main .container {
+  border-bottom: 2px solid #5f4e42;
+}
+main h3 {
+  text-align: center;
+  padding-top: 10px;
+  color: #5f4e42;
+  line-height: 1.5;
+}
+main .card-container {
+  display: flex;
+}
+main .card {
+  padding: 10px;
+  text-align: center;
+}
+main .card p {
+  color: #5f4e42;
+}
+main .card img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .before {
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+}
+main .before img {
+  width: 250px;
 }
 
 .nav {

@@ -14,6 +14,7 @@
 }
 .jumbotron{
     color: $primary-color;
+    padding-bottom: 15px;
     background-image: url("./img/illustration-main.jpg");
     p, h1{
         width: 50%;
@@ -34,5 +35,41 @@
         margin: 10px 0;
     }
     
+}
+main{
+    background-color:$primary-bg;
+    .container{
+        border-bottom: 2px solid $primary-color;
+    }
+    h3{
+        text-align: center;
+        padding-top: 10px;
+        color: $primary-color;
+        line-height: 1.5;
+    }
+    .card-container{
+        display: flex;
+    }
+    .card{
+        padding: 10px;
+        text-align: center;
+        p{
+            color:$primary-color
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        object-fit: contain;
+        }
+    }
+    .before{
+        margin: 20px auto;
+        width: 50%;
+        text-align: center;
+        padding: 30px;
+        img{
+            width: 250px
+        }
+    }
 }
 @import "partials/nav";
